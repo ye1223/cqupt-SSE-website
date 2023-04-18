@@ -1,0 +1,13 @@
+.container nav .hover a {
+  color: #eadabc;
+}
+.container nav .hover a::after {
+  content: '';
+  display: inline-block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0px;
+  border-bottom: 3px #eadabc solid;
+}
